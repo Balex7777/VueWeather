@@ -1,11 +1,14 @@
 <template>
-    <div class="informer-container">
+	<div>
+		<h1 class="title">Погода в Королёве сейчас</h1>
+		<div class="informer-container">
         <Temperature v-bind:real="weather.temp_real" v-bind:feel="weather.temp_feel" />
         <div class="flex-break"></div>
         <Humidity v-bind:val="weather.humidity" />
         <div class="vertical-divider"></div>
         <Wind v-bind:val="weather.wind" />
     </div>
+	</div>
 </template>
 
 <script>
@@ -50,5 +53,10 @@ export default {
   background-color: #fff;
   vertical-align: middle;
   display: table-cell;
+}
+.title{
+	font-family: sans-serif;
+	font-size: 28px;
+	text-align: center;
 }
 </style>

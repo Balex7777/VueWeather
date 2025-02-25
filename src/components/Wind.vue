@@ -1,6 +1,6 @@
 <template>
     <div class="wind">
-        <img src="img/wind.png"> {{val}} <small>м/с</small>
+        <img src="img/wind.png"> {{val}} <small>км/ч</small>
     </div>
 </template>
 
