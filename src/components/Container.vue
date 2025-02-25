@@ -36,7 +36,7 @@ export default {
   flex-wrap: wrap;
   width: 400px;
   padding: 30px;
-  background-image: url('img/forest.png');
+  background-image: url('../../public/img/forest.png');
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
