@@ -1,6 +1,6 @@
 <template>
     <div class="temperature">
-        <img src="/img/thermometer.png">
+        <img src="img/thermometer.png">
         <div class="temp-real">{{real}}</div>
         <div class="temp-feel">{{feel}}</div>
       </div>

@@ -1,6 +1,6 @@
 <template>
     <div class="humidity">
-        <img src="/img/humidity.png"> {{val}} <small>%</small>
+        <img src="img/humidity.png"> {{val}} <small>%</small>
     </div>
 </template>
 
